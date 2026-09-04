@@ -58,41 +58,6 @@ The distance between your **thumb tip** and **index finger tip** is mapped to th
 - **Windows OS** (required for `pycaw`, since it uses the Windows Core Audio API)
 - A working webcam
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/hand-gesture-volume-control.git
-   cd hand-gesture-volume-control
-   ```
-
-2. Create a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-   pip install opencv-python mediapipe numpy pycaw comtypes
-   ```
-
-## Usage
-
-Run the main volume control script:
-```bash
-python VolumeHandControl.py
-```
-
-- Show your hand to the webcam.
-- Pinch your **thumb** and **index finger** together to decrease volume; spread them apart to increase it.
-- Press any key or close the window to stop (add a proper quit condition like `q` key handling if desired).
-
-To test just the hand tracking module on its own:
-```bash
-python HandTrackingModule.py
-```
-
 ## How It Works
 
 1. **Capture** — OpenCV grabs frames from the webcam.
