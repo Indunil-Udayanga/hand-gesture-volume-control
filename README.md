@@ -1,4 +1,4 @@
-# Hand Gesture Volume Controller ✋🔊
+# Hand Gesture Volume Controller 
 
 Control your system's volume in real time using hand gestures, powered by computer vision. Pinch your thumb and index finger together or apart to lower or raise the volume — no mouse, no keyboard, just your hand in front of the webcam.
 
